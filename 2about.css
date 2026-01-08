@@ -22,7 +22,6 @@ body {
     font-weight: bold;
 }
 
-/* Headings */
 h1 {
     color: #111827;
     text-align: center;
@@ -53,3 +52,4 @@ body > p {
     text-align: center;
     margin-top: 15px;
 }
+
