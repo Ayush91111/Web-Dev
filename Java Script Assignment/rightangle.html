@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Right-Angled Triangle</title>
+</head>
+<body>
+
+<h2>Right-Angled Triangle Pattern</h2>
+<pre id="triangle"></pre>
+
+<script>
+    let n = 5; // Number of rows
+    let pattern = "";
+
+    for (let i = 1; i <= n; i++) {
+        for (let j = 1; j <= i; j++) {
+            pattern += "*";
+        }
+        pattern += "\n"; // Move to next line
+    }
+
+    document.getElementById("triangle").innerText = pattern;
+    console.log(pattern);
+</script>
+
+</body>
+</html>

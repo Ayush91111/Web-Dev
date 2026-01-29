@@ -1,0 +1,27 @@
+#colorBox {
+    width: 250px;
+    height: 150px;
+    background-color: #add8e6; /* Default color */
+    border-radius: 8px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    transition: background-color 0.4s ease;
+}
+
+input, button {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
